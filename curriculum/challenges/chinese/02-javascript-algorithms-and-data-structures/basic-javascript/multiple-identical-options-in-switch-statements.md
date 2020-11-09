@@ -11,6 +11,7 @@ title: 在 Switch 语句添加多个相同选项
 如果你忘了给<code>switch</code>的每一条<code>case</code>添加<code>break</code>，那么直到遇见<code>break</code>为止，后续的<code>case</code>会一直执行。如果你想为多个不同的输入设置相同的结果，可以这样写：
 
 ```js
+var result = "";
 switch(val) {
   case 1:
   case 2:
